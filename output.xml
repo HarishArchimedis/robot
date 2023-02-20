@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.0 on win32)" generated="20230220 15:10:27.435" rpa="false" schemaversion="3">
+<suite id="s1" name="Allure" source="C:\robotframework\MultiTabs_Excel_data_Extracting\allure.robot">
+<test id="s1-t1" name="testcase 1" line="52">
+<kw name="first">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:10:27.672" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:10:27.672" endtime="20230220 15:10:32.645"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>mani</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:32.646" level="INFO">Typing text 'mani' into text field '//input[@id='username']'.</msg>
+<status status="PASS" starttime="20230220 15:10:32.645" endtime="20230220 15:10:32.800"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230220 15:10:33.812" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230220 15:10:32.800" endtime="20230220 15:10:33.812"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:33.813" level="INFO">Clicking element '//input[@id='login']'.</msg>
+<status status="PASS" starttime="20230220 15:10:33.812" endtime="20230220 15:10:33.894"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230220 15:10:34.209" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230220 15:10:33.894" endtime="20230220 15:10:34.209"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:10:34.209" endtime="20230220 15:10:36.384"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:27.672" endtime="20230220 15:10:36.386"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:27.671" endtime="20230220 15:10:36.386"/>
+</test>
+<test id="s1-t2" name="testcase 2" line="54">
+<kw name="second">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:10:36.390" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:10:36.389" endtime="20230220 15:10:41.016"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>hari</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:41.018" level="INFO">Typing password into text field '//input[@id='password']'.</msg>
+<msg timestamp="20230220 15:10:41.117" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20230220 15:10:41.213" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20230220 15:10:41.016" endtime="20230220 15:10:41.215"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230220 15:10:42.228" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230220 15:10:41.215" endtime="20230220 15:10:42.229"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:42.230" level="INFO">Clicking element '//input[@id='login']'.</msg>
+<status status="PASS" starttime="20230220 15:10:42.229" endtime="20230220 15:10:42.308"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230220 15:10:42.606" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230220 15:10:42.309" endtime="20230220 15:10:42.606"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:10:42.607" endtime="20230220 15:10:44.793"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:36.388" endtime="20230220 15:10:44.794"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:36.386" endtime="20230220 15:10:44.794"/>
+</test>
+<test id="s1-t3" name="testcase 3" line="56">
+<kw name="third">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:10:44.797" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:10:44.796" endtime="20230220 15:10:49.559"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230220 15:10:50.564" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230220 15:10:49.560" endtime="20230220 15:10:50.564"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:50.566" level="INFO">Clicking element '//input[@id='login']'.</msg>
+<status status="PASS" starttime="20230220 15:10:50.565" endtime="20230220 15:10:50.664"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:10:50.665" endtime="20230220 15:10:52.828"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:44.795" endtime="20230220 15:10:52.828"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:44.794" endtime="20230220 15:10:52.828"/>
+</test>
+<test id="s1-t4" name="testcase 4" line="58">
+<kw name="four">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:10:52.831" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:10:52.829" endtime="20230220 15:10:57.394"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>mani</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:57.395" level="INFO">Typing text 'mani' into text field '//input[@id='username']'.</msg>
+<status status="PASS" starttime="20230220 15:10:57.395" endtime="20230220 15:10:57.553"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>hari</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:57.553" level="INFO">Typing password into text field '//input[@id='password']'.</msg>
+<msg timestamp="20230220 15:10:57.629" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20230220 15:10:57.697" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20230220 15:10:57.553" endtime="20230220 15:10:57.697"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230220 15:10:58.709" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230220 15:10:57.697" endtime="20230220 15:10:58.709"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230220 15:10:58.710" level="INFO">Clicking element '//input[@id='login']'.</msg>
+<status status="PASS" starttime="20230220 15:10:58.709" endtime="20230220 15:10:59.196"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:10:59.196" endtime="20230220 15:11:01.358"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:52.829" endtime="20230220 15:11:01.359"/>
+</kw>
+<status status="PASS" starttime="20230220 15:10:52.829" endtime="20230220 15:11:01.359"/>
+</test>
+<test id="s1-t5" name="testcase 5" line="60">
+<kw name="five">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:11:01.362" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:11:01.361" endtime="20230220 15:11:05.899"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230220 15:11:15.904" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230220 15:11:05.900" endtime="20230220 15:11:15.906"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230220 15:11:16.202" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-18.png"&gt;&lt;img src="selenium-screenshot-18.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230220 15:11:15.906" endtime="20230220 15:11:16.202"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:11:16.203" endtime="20230220 15:11:18.372"/>
+</kw>
+<status status="PASS" starttime="20230220 15:11:01.361" endtime="20230220 15:11:18.372"/>
+</kw>
+<status status="PASS" starttime="20230220 15:11:01.360" endtime="20230220 15:11:18.372"/>
+</test>
+<test id="s1-t6" name="testcase 6" line="62">
+<kw name="six">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:11:18.374" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:11:18.373" endtime="20230220 15:11:22.894"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230220 15:11:23.230" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230220 15:11:22.894" endtime="20230220 15:11:23.230"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:11:23.230" endtime="20230220 15:11:25.369"/>
+</kw>
+<status status="PASS" starttime="20230220 15:11:18.373" endtime="20230220 15:11:25.370"/>
+</kw>
+<status status="PASS" starttime="20230220 15:11:18.373" endtime="20230220 15:11:25.370"/>
+</test>
+<test id="s1-t7" name="testcase 7" line="65">
+<kw name="seven">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230220 15:11:25.373" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230220 15:11:25.372" endtime="20230220 15:11:36.653"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>mani</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230220 15:11:36.654" level="INFO">Typing text 'mani' into text field '//input[@id='username']'.</msg>
+<status status="PASS" starttime="20230220 15:11:36.653" endtime="20230220 15:11:36.778"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>hari</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20230220 15:11:36.780" level="INFO">Typing password into text field '//input[@id='password']'.</msg>
+<msg timestamp="20230220 15:11:36.834" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20230220 15:11:36.891" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20230220 15:11:36.779" endtime="20230220 15:11:36.891"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230220 15:11:37.901" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230220 15:11:36.891" endtime="20230220 15:11:37.902"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230220 15:11:38.111" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-20.png"&gt;&lt;img src="selenium-screenshot-20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230220 15:11:37.902" endtime="20230220 15:11:38.111"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230220 15:11:38.111" endtime="20230220 15:11:40.240"/>
+</kw>
+<status status="PASS" starttime="20230220 15:11:25.370" endtime="20230220 15:11:40.240"/>
+</kw>
+<status status="PASS" starttime="20230220 15:11:25.370" endtime="20230220 15:11:40.240"/>
+</test>
+<status status="PASS" starttime="20230220 15:10:27.437" endtime="20230220 15:11:40.241"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" skip="0" id="s1" name="Allure">Allure</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

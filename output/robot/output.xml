@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.0 on win32)" generated="20230211 23:22:38.136" rpa="false" schemaversion="3">
+<suite id="s1" name="Allure" source="C:\robotframework\MultiTabs_Excel_data_Extracting\allure.robot">
+<test id="s1-t1" name="helloworld" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://adactinhotelapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230211 23:22:38.420" level="INFO">Opening browser 'chrome' to base url 'http://adactinhotelapp.com/'.</msg>
+<status status="PASS" starttime="20230211 23:22:38.420" endtime="20230211 23:22:41.187"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>mani</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230211 23:22:41.187" level="INFO">Typing text 'mani' into text field '//input[@id='username']'.</msg>
+<status status="PASS" starttime="20230211 23:22:41.187" endtime="20230211 23:22:41.314"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>//input[@id='password']</arg>
+<arg>hari</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20230211 23:22:41.314" level="INFO">Typing password into text field '//input[@id='password']'.</msg>
+<msg timestamp="20230211 23:22:41.363" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20230211 23:22:41.412" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20230211 23:22:41.314" endtime="20230211 23:22:41.412"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230211 23:22:42.415" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230211 23:22:41.414" endtime="20230211 23:22:42.415"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230211 23:22:42.420" level="INFO">Clicking element '//input[@id='login']'.</msg>
+<status status="PASS" starttime="20230211 23:22:42.420" endtime="20230211 23:22:42.979"/>
+</kw>
+<status status="PASS" starttime="20230211 23:22:38.420" endtime="20230211 23:22:42.988"/>
+</test>
+<status status="PASS" starttime="20230211 23:22:38.217" endtime="20230211 23:22:42.997"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Allure">Allure</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
